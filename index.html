@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Crypto Tracker</title>
+</head>
+<body>
+   <center>
+    <div>
+        <div><h1 class="header">CRYPTO TRACKER</h1></div>
+        <div>
+        <form id="searchbox">
+        <div>
+            <select name="cointype" class="form-select" aria-label="Default select example" id="coinbox">
+                <option value="invalid">Choose Your Crypto</option>
+                <option value="bitcoin">Bitcoin</option>
+                <option value="dogecoin">Dogecoin</option>
+                <option value="solana">Solana</option>
+                <option value="tether">Tether</option>
+                <option value="ethereum">Ethereum</option>
+                <option value="tron">Tron</option>
+                
+            </select>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-outline-success" id="getbtn">Get Price</button>
+        </div>
+        </form>
+        </div>
+        <div id="root">
+ 
+        </div>
+    </div>
+   </center>
+    <script src="script.js"></script>
+</body>
+</html>

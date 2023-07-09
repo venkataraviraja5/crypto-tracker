@@ -1,0 +1,54 @@
+body{
+    background-color:lightgrey;
+}
+.headerbox{
+    border: 0.1px solid black;
+    width: 300px;
+}
+.name{
+    text-align: center;
+}
+#coinbox{
+    width: 300px;
+   
+}
+#getbtn{
+  margin-top: 10px;
+}
+.table{
+  width: 80%;
+}
+
+#root{
+    margin-top: 50px;
+}
+.header{
+    color: rgba(231, 5, 5, 0.849);
+}
+@keyframes slideFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .table {
+    animation: slideFromRight 0.3s forwards;
+  }
+  @keyframes scaleUp {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  img {
+    animation: scaleUp 0.5s ease-in-out;
+  }
+  
